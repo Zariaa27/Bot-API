@@ -1,0 +1,19 @@
+{
+  "name": "bot-api",
+  "version": "0.0.1",
+  "description": "An API for my personal bot statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zariaa27/Bot-API.git"
+  },
+  "author": "Zariaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zariaa27/Bot-API/issues"
+  },
+  "homepage": "https://github.com/Zariaa27/Bot-API#readme"
+}
