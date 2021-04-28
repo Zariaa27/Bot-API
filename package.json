@@ -1,24 +1,16 @@
 {
   "name": "bot-api",
-  "version": "0.0.1",
-  "description": "An API for my personal bot statistics",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Zariaa27/Bot-API.git"
-  },
-  "author": "Zariaa",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Zariaa27/Bot-API/issues"
-  },
-  "homepage": "https://github.com/Zariaa27/Bot-API#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
